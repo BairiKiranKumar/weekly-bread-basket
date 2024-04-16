@@ -13,8 +13,8 @@ function Header() {
               <li>
                 <FontAwesomeIcon icon={faPlateWheat} />
               </li>
-              <li>Bread</li>
-              <li>Bakery</li>
+              <li><a>Bread</a></li>
+              <li><a>Bakery</a></li>
             </ul>
           </div>
           <div className="header-right">

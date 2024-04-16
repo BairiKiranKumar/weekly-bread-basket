@@ -5,16 +5,29 @@
     width: 100%;
     font-weight: bold;
     font-size: larger;
+    text-transform: uppercase;
 }
 
 .header-left li{
     margin-left: 50px;
     display: inline-block;
     text-align: center;
-    text-decoration: none;
+}
+
+.header-left li a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: #964B00;
+    text-decoration-thickness: 3px;
 }
 
 .header-right {
     margin-right: 50px;
+}
+
+.header-right:hover {
+    cursor: pointer;
+    color: #964B00;
 }
 

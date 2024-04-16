@@ -1,0 +1,85 @@
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-img {
+    display: block;
+    width: 60%;
+    height: auto;
+    box-shadow : 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.main-details {
+    display: block;
+    width: 40%;
+    margin-left: 50px;
+}
+
+.main-details-header {
+    font-size: 80px;
+    margin-bottom: 10px;
+    font-family: sedan;
+}
+
+.main-details-description {
+    font-size: 16px;
+    color: grey;
+}
+
+.rustic-bread, .plus-icon {
+    width: 50px;
+    height: 50px;
+}
+
+table {
+    display: block;
+    margin-right: 80px;
+    height: 50px;
+}
+
+table tr {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+table td {
+    flex:1;
+    padding: 10px;
+    text-align: center;
+}
+
+.add-more {
+    color: grey;
+}
+
+.btn-subscribe {
+    background-color: burlywood;
+    color: #fff;
+    border-radius: 30px;
+    width: 200px;
+    font-size: 18px;
+}
+
+.btn-subscribe:hover {
+    color: #964B00;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.subscription {
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+h5 {
+    font-size: 10px
+}
+
+.bread:hover {
+    cursor: pointer;
+    color: #964B00;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
